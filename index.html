@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy</title>
+</head>
+<style>
+    body{
+        background-color: rgb(226, 195, 195);
+    }
+    </style>
+<body>
+    <h1> Candy Table</h1><hr>
+    <form id="form">
+        <label for="candy">Candy Name:</label>
+        <input type="text" id="candy" name="candy">
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description">
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price">
+
+        <label for="quantity">Quantity:</label>
+        <input type="text" id="quantity" name="quantity">
+        <button id="add">Add</button>
+
+    </form>
+    <div>
+    <ul id="listofitem"></ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
